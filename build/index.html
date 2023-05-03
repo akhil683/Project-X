@@ -6,68 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="One site to get the news about all the new things happening in Tech World."/>
     <meta name="theme-color" content="#5D3FD3" />
-
-    
     <title>Tech Break</title>
-
-
     <!-- css file  -->
     <link rel="stylesheet" href="output.css">
-
     <!-- font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"/>
 </head>
-<body class="bg-gradient-to-tr from-black via-indigo-900 to-black">
+<body class="bg-black text-white font-Montserrat">
     
         <!-- NAVIGATION BAR starts  -->
-        <nav class="relative flex justify-between p-2 text-white">
+        <nav class="relative flex justify-between p-6">
             <h1 class="text-4xl tracking-tighter"> <span class="text-violet-500 font-semibold">TECH</span> BREAK</h1>
             <ul class="mx-8 flex gap-10 text-xl">
-                <li>Home</li> 
-                <li>About</li>
-                <li>Contact</li>
+                <li class="text-gray-300 hover:text-yellow-500"> <a href="#">Home</a></li> 
+                <li class="text-gray-300 hover:text-yellow-500"> <a href="#">Portfolio</a></li>
+                <li class="text-gray-300 hover:text-yellow-500"> <a href="#">About</a></li>
+                <li class="text-gray-300 hover:text-yellow-500"> <a href="#">Contact Us</a></li>
             </ul>
         </nav>
         <!-- NAVIGATION BAR Ends  -->
 
         <!-- MAIN section starts  -->
-        <main class="flex justify-center flex-wrap">
+        <main class="flex gap-2 flex-wrap">
 
             <!-- Blog Section starts  -->
-            <section class="m-2 grid grid-rows-2 grid-cols-3 gap-6 w-[80%] h-[90vh] mx-10">
-
-                <!-- swipper div  -->
-                <div class="bg-[rgba(255,255,255,0.7)] col-start-1 col-end-3 rounded-lg">
-                    <div>
-                        <img src="" alt="">
-                        <a href="#">
-                            <h2>Software Development</h2>
-                        </a>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <a href="#">
-                            <h2>Travelling Blogs</h2>
-                        </a>
+            <section class="flex flex-wrap gap-6 max-w-[75%] justify-center items-center text-gray-300">
+                <div class="max-w-[300px] bg-gray-900 hover:bg-gray-800 rounded-2xl flex flex-col justify-center items-center pt-6 border border-transparent hover:border-gray-600 duration-100">
+                    <img class="w-[80%] rounded-xl" src="images/travel.webp" alt="">
+                    <div class="p-6">
+                        <a  href="https://www.akhilweb3.tech" class="text-xl leading-none font-bold hover:text-yellow-600 duration-100">Best places to visit in Himachal Pradesh for New year</a>
+                        <p class="text-sm text-gray-500 py-4">By Akhil Palsra</span></p>
+                        <p class="relative text-sm text-gray-400">29 April, 2023 <span class="text-sm absolute right-0 rounded-xl text-yellow-600 font-bold">Travelling</span></p>
                     </div>
                 </div>
-
-                <!-- DEVELOPMENT  -->
-                <div class="relative bg-[rgba(255,255,255,0.7)] row-start-2 row-end-2 rounded-lg">
-                    <img class="absolute top-0 left-0" src="images/travel.jpg" alt="" loading="lazy">
-                    <p>Travel</p>
-                </div>
-                <div class="relative bg-[rgba(255,255,255,0.7)] row-start-2 row-end-2 col-start-2 col-end-2 rounded-lg overflow-hidden">
-                    <img class="absolute top-0 left-0" src="images/software.jpg" alt="" loading="lazy">
-                    <p>Software Development</p>
-                </div>
-                <!-- tips & tricks -->
-                <div class="bg-[rgba(255,255,255,0.7)] col-start-3 col-end-3 row-start-1 row-end-3 rounded-lg">
-                    <div>
-                        <img src="" alt="">
-
+                <div class="max-w-[300px] bg-gray-900 hover:bg-gray-800 rounded-2xl flex flex-col justify-center items-center pt-6 border border-transparent hover:border-gray-600 duration-100">
+                    <img class="w-[80%] rounded-xl" src="images/css.webp" alt="">
+                    <div class="p-6">
+                        <a  href="https://www.akhilweb3.tech" class="text-xl leading-none font-bold hover:text-yellow-600 duration-100">How to style a HTML tag with the help of CSS?</a>
+                        <p class="text-sm text-gray-500 py-4">By Akhil Palsra</span></p>
+                        <p class="relative text-sm text-gray-400">29 April, 2023 <span class="text-sm absolute right-0 rounded-xl text-orange-600 font-bold">Technology</span></p>
                     </div>
+                </div>
+                <div class="max-w-[300px] bg-gray-900 hover:bg-gray-800 rounded-2xl flex flex-col justify-center items-center pt-6 border border-transparent hover:border-gray-600 duration-100">
+                    <img class="w-[80%] rounded-xl" src="images/shimla.webp" alt="">
+                    <div class="p-6">
+                        <a  href="https://www.akhilweb3.tech" class="text-xl leading-none font-bold hover:text-yellow-600 duration-100">What are the top 10 places to visit in Shimla?</a>
+                        <p class="text-sm text-gray-500 py-4">By Akhil Palsra</span></p>
+                        <p class="relative text-sm text-gray-400">29 April, 2023 <span class="text-sm absolute right-0 rounded-xl text-yellow-600 font-bold">Travelling</span></p>
+                    </div>
+                </div>
+                <div class="max-w-[300px] bg-gray-900 hover:bg-gray-800 rounded-2xl flex flex-col justify-center items-center pt-6 border border-transparent hover:border-gray-600 duration-100">
+                    <img class="w-[80%] rounded-xl" src="images/manali.webp" alt="">
+                    <div class="p-6">
+                        <a  href="https://www.akhilweb3.tech" class="text-xl leading-none font-bold hover:text-yellow-600 duration-100">Best time to visit Manali and Rohtang Valley.</a>
+                        <p class="text-sm text-gray-500 py-4">By Akhil Palsra</span></p>
+                        <p class="relative text-sm text-gray-400">29 April, 2023 <span class="text-sm absolute right-0 rounded-xl text-yellow-600 font-bold">Travelling</span></p>
+                    </div>
+                </div>
+                <div class="max-w-[300px] bg-gray-900 hover:bg-gray-800 rounded-2xl flex flex-col justify-center items-center pt-6 border border-transparent hover:border-gray-600 duration-100">
+                    <img class="w-[80%] rounded-xl" src="images/Software.webp" alt="">
+                    <div class="p-6">
+                        <a  href="https://www.akhilweb3.tech" class="text-xl leading-none font-bold hover:text-yellow-600 duration-100">How to build a career in software development and best roadmap for it</a>
+                        <p class="text-sm text-gray-500 py-4">By Akhil Palsra</span></p>
+                        <p class="relative text-sm text-gray-400">29 April, 2023 <span class="text-sm absolute right-0 rounded-xl text-orange-600 font-bold">Technology</span></p>
+                    </div>
+                </div>
+                <div class="max-w-[300px] bg-gray-900 hover:bg-gray-800 rounded-2xl flex flex-col justify-center items-center pt-6 border border-transparent hover:border-gray-600 duration-100">
+                    <img class="w-[80%] rounded-xl" src="images/Ladakh.webp" alt="">
+                    <div class="p-6">
+                        <a  href="https://www.akhilweb3.tech" class="text-xl leading-none font-bold hover:text-yellow-600 duration-100">Complete guide for Manali to Leh Ladakh Bike trip under $500.</a>
+                        <p class="text-sm text-gray-500 py-4">By Akhil Palsra</span></p>
+                        <p class="relative text-sm text-gray-400">29 April, 2023 <span class="text-sm absolute right-0 rounded-xl text-yellow-600 font-bold">Travelling</span></p>
+                    </div>
+                </div>
+                <div class="max-w-[300px] bg-gray-900 hover:bg-gray-800 rounded-2xl flex flex-col justify-center items-center pt-6 border border-transparent hover:border-gray-600 duration-100">
+                    <img class="w-[80%] rounded-xl" src="images/web-design.webp" alt="">
+                    <div class="p-6">
+                        <a  href="https://www.akhilweb3.tech" class="text-xl leading-none font-bold hover:text-yellow-600 duration-100">GitHub repositories for Web designer from beginner to Advance Level.</a>
+                        <p class="text-sm text-gray-500 py-4">By Akhil Palsra</span></p>
+                        <p class="relative text-sm text-gray-400">29 April, 2023 <span class="text-sm absolute right-0 rounded-xl text-orange-600 font-bold">Technology</span></p>
+                    </div>
+                </div>
+                <div class="max-w-[300px] bg-gray-900 hover:bg-gray-800 rounded-2xl flex flex-col justify-center items-center pt-6 border border-transparent hover:border-gray-600 duration-100">
+                    <img class="w-[80%] rounded-xl" src="images/travel.webp" alt="">
+                    <div class="p-6">
+                        <a  href="https://www.akhilweb3.tech" class="text-xl leading-none font-bold hover:text-yellow-600 duration-100">Best places to visit in Himachal Pradesh for New year</a>
+                        <p class="text-sm text-gray-500 py-4">By Akhil Palsra</span></p>
+                        <p class="relative text-sm text-gray-400">29 April, 2023 <span class="text-sm absolute right-0 rounded-xl text-yellow-600 font-bold">Travelling</span></p>
+                    </div>
+                </div>
+            </section>
+
+              <!-- tips & tricks -->
+              <section class="relative max-w-[300px] max-height-[800px] flex flex-col text-center bg-gray-900 col-start-3 col-end-3 border border-transparent  hover:border-gray-600 rounded-2xl font-bold text-gray-300">
+                <h2 class="p-4 text-center text-2xl">Trending Blogs</h2>
+
+                <div class="tracking-tighter">
+                <div class="flex justify-center gap-2 rounded-xl py-2 border-t duration-200 hover:bg-gray-800 border-gray-600">
+                    <img class="max-w-[40%] rounded-lg" src="images/manali.webp" alt="">
+                    <div class="my-auto">
+                        <h3 class="text-center text-lg">Manali to Leh</h3>
+                        <p class="text-xs text-gray-400 font-normal">2 May <span class="text-gray-200 pl-4">By Akhil Palsra</span></p>
+                    </div>
+                </div>
+                <div class="flex justify-center gap-2 rounded-xl py-2 border-t duration-200 hover:bg-gray-800 border-gray-600">
+                    <img class="max-w-[40%] rounded-lg" src="images/web-design.webp" alt="">
+                    <div class="my-auto">
+                        <h3 class="text-center text-lg">Web Designing</h3>
+                        <p class="text-xs text-gray-400 font-normal">2 May <span class="text-gray-200 pl-4">By Akhil Palsra</span></p>
+                    </div>
+                </div>
+                <div class="flex justify-center gap-2 rounded-xl py-2 border-t duration-200 hover:bg-gray-800 border-gray-600">
+                    <img class="max-w-[40%] rounded-lg" src="images/shimla.webp" alt="">
+                    <div class="my-auto">
+                        <h3 class="text-center text-lg">Trip to Shimla</h3>
+                        <p class="text-xs text-gray-400 font-normal">2 May <span class="text-gray-200 pl-4">By Akhil Palsra</span></p>
+                    </div>
+                </div>
                 </div>
             </section>
             <!-- Blog Section Ends  -->
