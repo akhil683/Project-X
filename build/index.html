@@ -9,32 +9,37 @@
     <title>Tech Break</title>
     <!-- css file  -->
     <link rel="stylesheet" href="output.css">
+    <link rel="icon" href="images/travel.webp">
     <!-- font awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"/>
 </head>
+
 <body class="bg-black text-white font-Montserrat">
     
         <!-- NAVIGATION BAR starts  -->
-        <nav class="relative flex justify-between p-6">
-            <h1 class="text-4xl tracking-tighter"> <span class="text-violet-500 font-semibold">TECH</span> BREAK</h1>
-            <ul class="mx-8 md:flex gap-10 text-xl hidden">
-                <li class="text-gray-300 hover:text-yellow-500"> <a href="#">Home</a></li> 
-                <li class="text-gray-300 hover:text-yellow-500"> <a href="#">Portfolio</a></li>
-                <li class="text-gray-300 hover:text-yellow-500"> <a href="#">About</a></li>
-                <li class="text-gray-300 hover:text-yellow-500"> <a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
+            <nav class="flex justify-between p-6">
+                <h1 class="text-4xl tracking-tighter"> <span class="text-violet-500 font-semibold">TECH</span> BREAK</h1>
+                <ul class="mx-8 md:flex gap-10 text-xl hidden">
+                    <li class="text-gray-300 hover:text-yellow-500"> <a href="#">Home</a></li> 
+                    <li class="text-gray-300 hover:text-yellow-500"> <a href="https://akhilpalsra.netlify.app">Portfolio</a></li>
+                    <li class="text-gray-300 hover:text-yellow-500"> <a href="#">About</a></li>
+                    <li class="text-gray-300 hover:text-yellow-500"> <a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+          
         <!-- NAVIGATION BAR Ends  -->
+
     <section class="mb-6 px-6 flex flex-wrap gap-2 lg:gap-4 text-xs md:text-xl">
         <button id="all" class="px-4 md:px-8 py-2 bg-gray-800 rounded-3xl border border-gray-600 hover:bg-violet-700 focus:bg-violet-700 duration-300 cursor-pointer">All</button>
         <button id="Travelling" class="px-4 md:px-8 py-2 bg-gray-800 rounded-3xl border border-gray-600 hover:bg-green-700 focus:bg-green-700 duration-300 cursor-pointer">Travelling</button>
         <button id="Technology" class="px-4 md:px-8 py-2 bg-gray-800 rounded-3xl border border-gray-600 hover:bg-orange-600 focus:bg-orange-600 duration-300 cursor-pointer">Technology</button>
         <button id="Tipstricks" class="px-4 md:px-8 py-2 bg-gray-800 rounded-3xl border border-gray-600 hover:bg-yellow-700 focus:bg-yellow-700 duration-300 cursor-pointer">Tips & Tricks</button>
     </section>
+
         <!-- MAIN section starts  -->
         <main class="flex justify-center gap-y-6 flex-wrap">
 
@@ -115,7 +120,8 @@
             </section>
 
               <!-- tips & tricks -->
-              <section class="relative max-w-[330px] md:max-w-[300px] max-h-[600px] flex flex-col text-center bg-gray-900 col-start-3 col-end-3 border border-transparent  hover:border-gray-600 rounded-2xl font-bold text-gray-300">
+            <section class="relative max-w-[330px] md:max-w-[300px] max-h-[600px] flex flex-col text-center bg-gray-900 col-start-3 col-end-3 border border-transparent  hover:border-gray-600 rounded-2xl font-bold text-gray-300">
+
                 <h2 class="p-4 text-center text-2xl">Trending Blogs</h2>
 
                 <div class="tracking-tighter">
@@ -147,13 +153,13 @@
         <!-- MAIN section End  -->
 
         <!-- FOOTER starts  -->
-        <footer class="mt-6 p-6 flex flex-col justify-center items-center bg-green-900 rounded-t-3xl">
-            <div class="flex m-6 text-sm md:text-xl">
-                <a href="#" class="py-2 px-2 mx-2 md:px-4 md:mx-6">Instagram</a>
-                <a href="#" class="py-2 px-2 mx-2 md:px-4 md:mx-6">Twitter</a>
-                <a href="#" class="py-2 px-2 mx-2 md:px-4 md:mx-6">GitHub</a>
+        <footer class="mt-6 p-6 flex flex-col justify-center items-center bg-gray-800 rounded-t-3xl">
+            <div class="flex m-6 text-sm md:text-xl text-violet-400">
+                <a href="https://www.instagram.com/akhil_web/" class="py-2 px-2 mx-2 md:px-4 md:mx-6 hover:text-gray-300 duration-200">Instagram</a>
+                <a href="https://twitter.com/Akhil24857196" class="py-2 px-2 mx-2 md:px-4 md:mx-6 hover:text-gray-300 duration-200">Twitter</a>
+                <a href="https://github.com/akhil683" class="py-2 px-2 mx-2 md:px-4 md:mx-6 hover:text-gray-300 duration-200">GitHub</a>
             </div>
-            <p class="mt-6 text-gray-400 text-xs md:text-sm">&#169; 2023 Akhil Palsra</p>
+            <p class="mt-6 text-gray-400 text-xs md:text-sm">&#169; Akhil - All Rights Reserved</p>
         </footer>
         <!-- FOOTER Ends  -->
 
@@ -166,13 +172,13 @@
     
 <script src="main.js"></script>
 <!-- swiper js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js" integrity="sha512-hJrV+LKHbu+Hxkn/+ZwGOCMUkap0ZfjJbca9WT38z69+MYmRzMlvUd401TOs1b4byAm4fGDESpEcCbG2A6cibQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js" integrity="sha512-hJrV+LKHbu+Hxkn/+ZwGOCMUkap0ZfjJbca9WT38z69+MYmRzMlvUd401TOs1b4byAm4fGDESpEcCbG2A6cibQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
     <!-- GSAP animation link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Observer.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script> -->
 
 </body>
 </html>
