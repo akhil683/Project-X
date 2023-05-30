@@ -1,13 +1,16 @@
-
+\\filters
 let travel = document.querySelectorAll(".travel");
 let tips = document.querySelectorAll(".tips");
 let tech = document.querySelectorAll(".tech");
 
+\\filter button
 let travelling = document.querySelector("#Travelling");
 let tipstricks = document.querySelector("#Tipstricks");
 let technology = document.querySelector("#Technology");
 let all = document.querySelector("#all");
 
+
+\\filter logic ALL
 all.addEventListener('click', () => {
     tech.forEach((tech) => {
         tech.classList.remove('hidden');
@@ -23,6 +26,7 @@ all.addEventListener('click', () => {
    })
 })
 
+\\filter logic TRAVELING
 travelling.addEventListener('click', () => {
     tech.forEach((tech) => {
         tech.classList.remove('flex');
@@ -38,6 +42,7 @@ travelling.addEventListener('click', () => {
    })
 } );
 
+filter logic TIPS TRICKS
 tipstricks.addEventListener('click', () => {
     tech.forEach((tech) => {
         tech.classList.remove('flex');
@@ -53,6 +58,7 @@ tipstricks.addEventListener('click', () => {
    })
 });
 
+filter logic TECHNOLOGY
 technology.addEventListener('click', () => {
     tips.forEach((tips) => {
         tips.classList.remove('flex');
