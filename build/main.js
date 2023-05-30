@@ -1,4 +1,4 @@
-\\filters
+//filters
 let travel = document.querySelectorAll(".travel");
 let tips = document.querySelectorAll(".tips");
 let tech = document.querySelectorAll(".tech");
