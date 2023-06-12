@@ -25,7 +25,7 @@ all.addEventListener('click', () => {
    })
 })
 
-\\filter logic TRAVELING
+//filter logic TRAVELING
 travelling.addEventListener('click', () => {
     tech.forEach((tech) => {
         tech.classList.remove('flex');
@@ -41,7 +41,7 @@ travelling.addEventListener('click', () => {
    })
 } );
 
-\\filter logic TIPS TRICKS
+//filter logic TIPS TRICKS
 tipstricks.addEventListener('click', () => {
     tech.forEach((tech) => {
         tech.classList.remove('flex');
@@ -57,7 +57,7 @@ tipstricks.addEventListener('click', () => {
    })
 });
 
-filter logic TECHNOLOGY
+//filter logic TECHNOLOGY
 technology.addEventListener('click', () => {
     tips.forEach((tips) => {
         tips.classList.remove('flex');
